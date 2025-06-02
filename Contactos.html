@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+     <header class="bg-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="img/logo.png" alt="Ferretería La Bendición Logo" style="height: 60px; margin-right: 15px;">
+                <h1 class="h3 mb-0">Ferretería Orellana</h1>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-dark" href="index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="Productos2.html">PRODUCTOS</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="servicios.html">SERVICIOS</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="Contactos.html">CONTACTOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Contáctanos</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="contact-form-container">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">NOMBRE</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellido" class="form-label">APELLIDO</label>
+                            <input type="text" class="form-control" id="apellido" name="apellido" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="celular" class="form-label">CELULAR</label>
+                            <input type="tel" class="form-control" id="celular" name="celular">
+                        </div>
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">CORREO:</label>
+                            <input type="email" class="form-control" id="correo" name="correo" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="fecha" class="form-label">FECHA:</label>
+                            <input type="date" class="form-control" id="fecha" name="fecha">
+                        </div>
+                        <button type="submit" class="btn btn-submit">ENVIAR</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+ <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="iconos">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-tiktok"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-twitter-x"></i>
+            </div>
+            <p class="mb-0">TODOS LOS DERECHOS RESERVADOS. 2025 © AGENCIA GLOBAL S.A. DE C.V.</p>
+        </div>
+    </footer>
+<script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferretería Orellana - [Nombre de la Página]</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+      <header class="bg-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="img/logo.png" alt="Ferretería La Bendición Logo" style="height: 60px; margin-right: 15px;">
+                <h1 class="h3 mb-0">Ferretería Orellana</h1>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-dark" href="index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="Productos2.html">PRODUCTOS</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="servicios.html">SERVICIOS</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="Contactos.html">CONTACTOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Productos</h2>
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="card text-center product-card">
+                    <img src="img/desarmadores.jpg" class="card-img-top" alt="Desarmadores">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarmadores</h5>
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalDesarmadores">Ver</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center product-card">
+                    <img src="img/Martillos.jpeg" class="card-img-top" alt="Martillos">
+                    <div class="card-body">
+                        <h5 class="card-title">Martillos</h5>
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalMartillos">Ver</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center product-card">
+                    <img src="img/Tenazas.jpeg" class="card-img-top" alt="Tenazas">
+                    <div class="card-body">
+                        <h5 class="card-title">Tenazas</h5>
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalTenazas">Ver</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center product-card">
+                    <img src="img/Tenaza Carpintera.jpg" class="card-img-top" alt="Tenaza Carpintera">
+                    <div class="card-body">
+                        <h5 class="card-title">Tenaza Carpintera</h5>
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalTenazaCarpintera">Ver</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center product-card">
+                    <img src="img/Serruchos.jpg" class="card-img-top" alt="Serruchos">
+                    <div class="card-body">
+                        <h5 class="card-title">Serruchos</h5>
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalSerruchos">Ver</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center product-card">
+                    <img src="img/Taladros.jpg" class="card-img-top" alt="Taladros">
+                    <div class="card-body">
+                        <h5 class="card-title">Taladros</h5>
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalTaladros">Ver</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center product-card">
+                    <img src="img/taladro inalambrico.png" class="card-img-top" alt="Taladros Inalámbricos">
+                    <div class="card-body">
+                        <h5 class="card-title">Taladros Inalámbricos</h5>
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalTaladrosInalambricos">Ver</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center product-card">
+                    <img src="img/Pulidora.jpeg" class="card-img-top" alt="Pulidora">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulidora</h5>
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalPulidora">Ver</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalDesarmadores" tabindex="-1" aria-labelledby="modalDesarmadoresLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-dark">
+                    <h5 class="modal-title" id="modalDesarmadoresLabel">Set de Desarmadores de Precisión</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/desarmadores.jpg" class="img-fluid mb-3 modal-product-img" alt="Desarmadores">
+                    <p class="product-price">Precio: L 250.00</p>
+                    <p class="product-description">Juego completo de desarmadores de alta calidad para todo tipo de trabajos. Incluye puntas planas, de estrella y torx. Mango ergonómico para mayor comodidad.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalMartillos" tabindex="-1" aria-labelledby="modalMartillosLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-dark">
+                    <h5 class="modal-title" id="modalMartillosLabel">Martillo de Garra Profesional</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/Martillos.jpeg" class="img-fluid mb-3 modal-product-img" alt="Martillos">
+                    <p class="product-price">Precio: L 180.00</p>
+                    <p class="product-description">Martillo de garra forjado en acero, ideal para trabajos de carpintería y construcción. Mango antideslizante para un agarre seguro.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTenazas" tabindex="-1" aria-labelledby="modalTenazasLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-dark">
+                    <h5 class="modal-title" id="modalTenazasLabel">Juego de Tenazas Multiusos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/Tenazas.jpeg" class="img-fluid mb-3 modal-product-img" alt="Tenazas">
+                    <p class="product-price">Precio: L 120.00</p>
+                    <p class="product-description">Variedad de tenazas para diferentes usos: corte, sujeción y crimpado. Fabricadas con acero de alta resistencia.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTenazaCarpintera" tabindex="-1" aria-labelledby="modalTenazaCarpinteraLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-dark">
+                    <h5 class="modal-title" id="modalTenazaCarpinteraLabel">Tenaza Carpintera de Alto Rendimiento</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/Tenaza Carpintera.jpg" class="img-fluid mb-3 modal-product-img" alt="Tenaza Carpintera">
+                    <p class="product-price">Precio: L 95.00</p>
+                    <p class="product-description">Herramienta esencial para extracción de clavos y corte de alambre en trabajos de carpintería. Diseño robusto y duradero.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalSerruchos" tabindex="-1" aria-labelledby="modalSerruchosLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-dark">
+                    <h5 class="modal-title" id="modalSerruchosLabel">Juego de Serruchos para Madera</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/serruchos.jpg" class="img-fluid mb-3 modal-product-img" alt="Serruchos">
+                    <p class="product-price">Precio: L 300.00</p>
+                    <p class="product-description">Set de serruchos con diferentes tamaños de hoja para cortes precisos en madera blanda y dura. Dientes afilados para un corte eficiente.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTaladros" tabindex="-1" aria-labelledby="modalTaladrosLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-dark">
+                    <h5 class="modal-title" id="modalTaladrosLabel">Taladro Eléctrico de Impacto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/Taladros.jpg" class="img-fluid mb-3 modal-product-img" alt="Taladros">
+                    <p class="product-price">Precio: L 950.00</p>
+                    <p class="product-description">Potente taladro con función de impacto para perforar concreto, metal y madera. Diseño compacto y ligero para facilitar su uso.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTaladrosInalambricos" tabindex="-1" aria-labelledby="modalTaladrosInalambricosLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-dark">
+                    <h5 class="modal-title" id="modalTaladrosInalambricosLabel">Taladro Inalámbrico con Batería Recargable</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/taladro inalambrico.png" class="img-fluid mb-3 modal-product-img" alt="Taladros Inalámbricos">
+                    <p class="product-price">Precio: L 1,500.00</p>
+                    <p class="product-description">Libertad de movimiento con este taladro inalámbrico de alto rendimiento. Ideal para trabajos en lugares sin acceso a corriente. Incluye batería de larga duración.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalPulidora" tabindex="-1" aria-labelledby="modalPulidoraLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-dark">
+                    <h5 class="modal-title" id="modalPulidoraLabel">Pulidora Angular de Velocidad Variable</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/Pulidora.jpeg" class="img-fluid mb-3 modal-product-img" alt="Pulidora">
+                    <p class="product-price">Precio: L 1,100.00</p>
+                    <p class="product-description">Herramienta versátil para cortar, lijar y pulir diversos materiales. Control de velocidad para adaptarse a diferentes aplicaciones.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="iconos">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-tiktok"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-twitter-x"></i>
+            </div>
+            <p class="mb-0">TODOS LOS DERECHOS RESERVADOS. 2025 © AGENCIA GLOBAL S.A. DE C.V.</p>
+        </div>
+    </footer>
+
+
+<script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
